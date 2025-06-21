@@ -24,7 +24,7 @@ const cursos = [
   {
     id: 3,
     titulo: 'Programación en Python desde Cero',
-    mentor: 'Ing. Ana Pérez',
+    mentor: 'Ing. Anita Pérez',
     nivel: 'Básico',
     descripcion: 'Aprende a programar con Python, uno de los lenguajes más demandados en el mundo tech.',
     imagen: 'https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=500',
