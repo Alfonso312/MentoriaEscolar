@@ -9,7 +9,11 @@ const cursos = [
     mentor: 'Dra. María González',
     nivel: 'Básico',
     descripcion: 'Explora los fundamentos del mundo cuántico, desde la dualidad onda-partícula hasta el entrelazamiento.',
+<<<<<<< HEAD
     imagen: 'https://i.ytimg.com/vi/tdc73DlmWKU/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDEKjqCO-yr6uTVipIL_971SU0tpA',
+=======
+    imagen: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a1c8?w=500',
+>>>>>>> cae88bb497a7b593a6bc7f559e78c1468c3f3866
     color: 'blue',
   },
   {
@@ -24,7 +28,11 @@ const cursos = [
   {
     id: 3,
     titulo: 'Programación en Python desde Cero',
+<<<<<<< HEAD
     mentor: 'Ing. Anita Pérez',
+=======
+    mentor: 'Ing. Ana Pérez',
+>>>>>>> cae88bb497a7b593a6bc7f559e78c1468c3f3866
     nivel: 'Básico',
     descripcion: 'Aprende a programar con Python, uno de los lenguajes más demandados en el mundo tech.',
     imagen: 'https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=500',
@@ -98,17 +106,30 @@ function Cursos() {
                 {curso.nivel}
               </div>
             </div>
+<<<<<<< HEAD
 
             <div className="p-6 flex-grow flex flex-col">
               <h3 className="text-xl font-bold text-gray-900 mb-2">{curso.titulo}</h3>
 
+=======
+            
+            <div className="p-6 flex-grow flex flex-col">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">{curso.titulo}</h3>
+              
+>>>>>>> cae88bb497a7b593a6bc7f559e78c1468c3f3866
               <div className="flex items-center text-sm text-gray-500 mb-4">
                 <UserCircleIcon className="h-5 w-5 mr-1.5" />
                 <span>{curso.mentor}</span>
               </div>
+<<<<<<< HEAD
 
               <p className="text-gray-600 mb-4 flex-grow">{curso.descripcion}</p>
 
+=======
+              
+              <p className="text-gray-600 mb-4 flex-grow">{curso.descripcion}</p>
+              
+>>>>>>> cae88bb497a7b593a6bc7f559e78c1468c3f3866
               <button
                 className={`mt-auto w-full py-2 px-4 rounded-lg font-semibold transition-colors bg-indigo-600 text-white hover:bg-indigo-700`}
               >
